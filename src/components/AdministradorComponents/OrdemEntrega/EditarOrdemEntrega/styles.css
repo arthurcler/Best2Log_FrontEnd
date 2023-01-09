@@ -1,0 +1,179 @@
+.buttonSubmitFuncionalidade {
+    padding-left: 25%;
+}
+
+#dadosOrdem {
+    display: block;
+    width: 22vw;
+    max-height: 63vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#dadosOrdem h2 {
+    padding-left: 1%;
+    padding-bottom: 1.5vh;
+}
+
+.formOrdem {
+    padding-left: 1%;
+}
+
+.fieldOrdem {
+    margin-bottom: 3.5%;
+    font-size: 1.2em;
+}
+
+.labelEditOrdem {
+    display: flex;
+    margin-right: 2vw;
+    width: 15%;
+    font-size: 1.2em;
+}
+
+.fieldOrdem label {
+    color: var(--color02);
+    margin-right: 1vw;
+}
+
+.fieldOrdem input {
+    background-color: var(--color03);
+    border-radius: 5px;
+    padding-left: 2%;
+    font-size: 1rem;
+    width: 20vw;
+}
+
+.fieldOrdem input:hover {
+    background-color: var(--color04);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*  Form de Endereço do Ordem */
+#enderecoOrdem {
+    width: 48vw;
+    max-height: 60.5vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 2%;
+    padding-left: 1%;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#enderecoOrdemEnd h2 {
+    padding-left: 1%;
+    padding-bottom: 1.5vh;
+}
+
+.ordemEnd {
+    display: flex;
+    justify-content: space-around;
+    width: 36vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2%;
+    padding-right: 2%;
+}
+
+.formOrdemEnd {
+    padding-left: 1%;
+}
+
+.fieldOrdemEnd {
+    margin-bottom: 2.5%;
+    font-size: 1.5em;
+}
+
+.labelEditOrdemEnd {
+    display: flex;
+    width: 20%;
+}
+
+.fieldOrdemEnd label {
+    color: var(--color02);
+    margin-right: 1vw;
+}
+
+.fieldOrdemEnd input {
+    background-color: var(--color03);
+    border-radius: 5px;
+    padding-left: 2%;
+    font-size: 1rem;
+    width: 15vw;
+}
+
+.fieldOrdemEnd input:hover {
+    background-color: var(--color04);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#confirmButtonOrdem {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    margin-top: 2vh;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+#confirmButtonOrdem button {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonGreenAction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 10vw;
+    margin-left: 51vw;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonGreenAction:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: var(--color01);
+    border-color: var(--color01);
+    background-color: var(--color04);
+}
+
+.buttonReturnAction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 10vw;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonReturnAction:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: rgb(40, 137, 255);
+    border-color: rgb(40, 137, 255);
+}
+
+.gocheck {
+    font-size: 2em;
+    margin-right: 2%;
+}

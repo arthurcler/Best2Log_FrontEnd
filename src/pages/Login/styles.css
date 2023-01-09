@@ -1,0 +1,119 @@
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color07);
+}
+
+.loginCard {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 8vw;
+}
+
+.colmeiaCard {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -.2vw;
+}
+
+.colmeia {
+    display: flex;
+    position: fixed;
+    width: 28.84%;
+    height: 45.5%;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+#login .form {
+    display: flex;
+    color: var(--color01);
+    background-color: var(--color02);
+    width: 100vw;
+    height: 50vh;
+    max-width: 480px;
+    max-height: 350px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 16px #262626;
+    align-items: center;
+    z-index: 2;
+}
+
+#login .loginIcon {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+#login .field {
+    height: 50%;
+    padding-top: 2vh;
+    max-width: max-content;
+    margin-left: 2vw;
+}
+
+#login .field label {
+    display: flex;
+    font-size: 1.4em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#login .field input {
+    width: 100%;
+    border: 0px solid;
+    box-shadow: 1px 1px 6px var(--color01);
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom: 1.5vh;
+}
+
+#login .field input:hover {
+    background-color: var(--color04);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buttonLogin {
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 6vh;
+    width: 10vw;
+    min-width: 200px;
+    min-height: 30px;
+    max-height: 60px;
+    margin-left: 2vw;
+}
+
+.buttonLogin {
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color02);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 8px var(--color01);
+    transition: 0.1s ease;
+    font-size: 1rem;
+}
+
+.buttonLogin:hover {
+    color: var(--color04);
+    border-color: var(--color04);
+    transform: translate(1px, 1px);
+}

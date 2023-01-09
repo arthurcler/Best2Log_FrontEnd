@@ -1,0 +1,278 @@
+#headerFuncionalidade {
+    display: flex;
+}
+
+.tituloFuncionalidade h1 {
+    font-size: 1.8rem;
+    color: var(--color08);
+    width: 58vw;
+}
+
+#actionNew {
+    display: flex;
+    height: 6.5vh;
+    font-size: 2rem;
+}
+
+#actionNew button {
+    margin: 0.25rem;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonPurpleAction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonPurpleAction:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: rgb(172, 55, 255);
+    border-color: rgb(172, 55, 255);
+}
+
+#headerCardOrdem {
+    display: flex;
+    width: 65vw;
+    margin-top: 2vh;
+}
+
+.headerCardOrdem {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 90%;
+}
+
+.headerCardOrdemDataConf {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 33%;
+}
+
+.headerCardOrdemRem {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.headerCardOrdem {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 25%;
+}
+
+#mainCardOrdem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#mainCardOrdem h2 {
+    padding-left: 1%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+}
+
+#CardOrdem{
+    width: 100vw;
+}
+
+.CardOrdemTexto {
+    display: flex;
+    width: 100%;
+    border-bottom: 1.8px solid;
+    border-color: var(--color06);
+    padding-top: 10px;
+}
+
+.mainCardOrdem {
+    width: 15.5vw;
+}
+
+.mainCardOrdemRem {
+    width: 28vw;
+}
+
+.mainCardOrdemDataConf {
+    width: 22vw;
+}
+
+.buttonCardOrdem {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+    width: 90%;
+    height: 6vh;
+    margin-bottom: 1vh;
+}
+
+.buttonCardOrdem button {
+    border-radius: 5px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.headerCardOrdemDetalhe {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 15vw;
+}
+
+.headerCardOrdemDataConfDetalhe {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 24vw;
+}
+
+.headerCardOrdemRemDetalhe {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 15vw;
+}
+
+#mainCardOrdemDetalhe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#mainCardOrdemDetalhe h2 {
+    padding-left: 1%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+}
+
+#CardOrdemDetalhe{
+    width: 100vw;
+    font-size: 1em;
+}
+
+.CardOrdemTextoDetalhe {
+    display: flex;
+    width: 100%;
+    border-bottom: 1.8px solid;
+    border-color: var(--color06);
+    padding-top: 10px;
+    padding-bottom: 1.65vh;
+}
+
+.mainCardOrdemDetalhe {
+    width: 15.5vw;
+}
+
+.mainCardOrdemRemDetalhe {
+    width: 15vw;
+}
+
+.mainCardOrdemDataConfDetalhe {
+    width: 22vw;
+}
+
+
+#actionView {
+    display: flex;
+    height: 4vh;
+    font-size: 1.5rem;
+}
+
+#actionView button {
+    width: 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonOrangeActionAtualizar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonOrangeActionAtualizar:hover {
+    transform: translate(1px, 1px);
+    color: rgb(255, 156, 7);
+    border-color: rgb(255, 156, 7);
+}
+
+.buttonBlueActionView {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+
+}
+
+.buttonBlueActionView:hover {
+    transform: translate(1px, 1px);
+    color: rgb(40, 137, 255);
+    border-color: rgb(40, 137, 255);
+}
+
+.buttonRedActionDeletar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonRedActionDeletar:hover {
+    transform: translate(1px, 1px);
+    color: red;
+    border-color: red;
+}
+
+

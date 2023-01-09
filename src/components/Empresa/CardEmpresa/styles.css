@@ -1,0 +1,268 @@
+#headerCardEmpresa {
+    display: flex;
+    width: 65vw;
+    margin-top: 2vh;
+}
+
+.headerCardEmpresaTitle {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 55%;
+}
+
+.headerCardEmpresaNome {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 25%;
+}
+
+.headerCardEmpresaStatus {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 25%;
+}
+
+.headerCardEmpresa {
+    color: var(--color01);
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 20%;
+}
+
+#search {
+    width: 20vw;
+    height: 1.5rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+#mainCardColaborador h2 {
+    padding-left: 1%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+}
+
+#mainCardEmpresa {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#mainCardEmpresa h2 {
+    padding-left: 1%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+}
+
+#CardEmpresa{
+    width: 100vw;
+}
+
+.CardEmpresaTexto {
+    display: flex;
+    width: 100%;
+    border-bottom: 1.8px solid;
+    border-color: var(--color06);
+    padding-top: 10px;
+}
+
+.mainCardEmpresa {
+    width: 13vw;
+}
+
+.mainCardEmpresaNome {
+    width: 16vw;
+}
+
+.mainCardEmpresaStatus {
+    width: 18vw;
+}
+
+/* Estilização do card de detalhes */
+#mainCardEmpresaDetalhes {
+    display: block;
+    width: 100%;
+    margin-top: 1vh;
+    background-color: var(--color01);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#mainCardEmpresaDetalhes input {
+    padding-left: 10%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+    padding-top: 3.5px;
+    margin-bottom: 2vh;
+}
+
+#CardEmpresaDetalhes{
+    display: flex;
+    justify-content: column;
+    width: 100%;
+}
+
+#CardEmpresaDetalhes ::placeholder {
+    color: var(--color05);
+}
+
+.CardEmpresaDetalhes {
+    margin-left: 2%;
+    display: block;
+    width: 30%;
+    padding-top: 10px;
+}
+
+.mainCardEmpresaDetalhes {
+    display: block;
+    width: 100%;
+    margin-bottom: 2vh;
+    background-color: var(--color01);
+    border-style: none;
+    border-bottom: 1.8px solid;
+    border-color: var(--color06);
+}
+
+.CardEmpresaDetalhesLabel {
+    margin-left: 2%;
+    display: block;
+    width: 12%;
+    padding-top: 10px;
+}
+
+.CardEmpresaDetalhesLabel h2 {
+    padding-left: 1%;
+    font-size: 1em;
+    color: var(--color05);
+    font-weight: 400;
+    padding-left: 20%;
+}
+
+.buttonAtualizar {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5vw;
+    width: 90%;
+    height: 4vh;
+    margin-bottom: 1vh;
+}
+
+.buttonAtualizar button {
+    border-radius: 5px;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonRedActionDeletar {
+    margin-left: 5vh;
+}
+
+.buttonCardEmpresa {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+    width: 90%;
+    height: 6vh;
+    margin-bottom: 1vh;
+}
+
+.buttonCardEmpresa button {
+    border-radius: 5px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+#actionView {
+    display: flex;
+    height: 3vh;
+    font-size: 1.5rem;
+}
+
+#actionView button {
+    width: 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonOrangeActionAtualizar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonOrangeActionAtualizar:hover {
+    transform: translate(1px, 1px);
+    color: rgb(255, 156, 7);
+    border-color: rgb(255, 156, 7);
+}
+
+.buttonBlueActionView {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+
+}
+
+.buttonBlueActionView:hover {
+    transform: translate(1px, 1px);
+    color: rgb(40, 137, 255);
+    border-color: rgb(40, 137, 255);
+}
+
+.buttonRedActionDeletar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonRedActionDeletar:hover {
+    transform: translate(1px, 1px);
+    color: red;
+    border-color: red;
+}
+
+

@@ -1,0 +1,313 @@
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color01);
+    height: 10vh;
+}
+
+.accessLogado {
+    color: var(--color02);
+    margin-left: 2.5vh;
+    font-size: 1.8em;
+}
+
+#buttonLog {
+    width: 10vw;
+    height: 5vh;
+    margin-right: 0.5em;
+    margin-top: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--color06);
+}
+
+.buttonLogout {
+    color: var(--color04);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.buttonLogout:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    border-color: var(--color04)
+}
+
+.aside {
+    width: 20vw;
+    height: 100vh;
+}
+
+#objective {
+    display: block;
+    margin-top: 5vh;
+    padding: 1rem;
+    height: 60vh;
+    font-size: 2rem;
+}
+
+#objective button {
+    margin: 0.5rem;
+    margin-top: 3vh;
+    height: 8vh;
+    width: 15vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonBlue {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+
+}
+
+.buttonBlue:hover {
+    color: rgb(40, 137, 255);
+    opacity: 1;
+    transform: translate(1px, 1px);
+    border-color: rgb(40, 137, 255);
+}
+
+.buttonOrange {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+}
+
+.buttonOrange:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: rgb(255, 156, 7);
+    border-color: rgb(255, 156, 7);
+}
+
+.buttonRed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+}
+
+.buttonRed:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: red;
+    border-color: red;
+}
+
+.buttonPurple {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+}
+
+.buttonPurple:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: rgb(172, 55, 255);
+    border-color: rgb(172, 55, 255);
+}
+
+
+#mainAdministrador {
+    display: inline-block;
+    position: absolute;
+    width: 75vw;
+    height: 85vh;
+    max-height: 85vh;
+    margin-left: 20vw;
+    margin-top: 4vw;
+    padding: 2%;
+    border-radius: 10px;
+    color: var(--color01);
+    border-radius: 15px;
+    box-shadow: 1px 1px 16px var(--color01);
+    background-color: var(--color02);
+}
+
+#actionReturn {
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+    padding-bottom: 15vh;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#actionReturn button {
+    margin: 0.25rem;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonReturn {
+    margin-left: .4vw;
+    margin-right: 10vw;
+}
+
+.buttonVoltar {
+    color: var(--color01);
+    border-color: var(--color01);
+    background-color: var(--color01);
+    box-shadow: 1px 1px 2px var(--color01);
+    opacity: 0.8;
+    transition: 0.1s ease;
+    background-color: var(--color02);
+}
+
+.buttonVoltar:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: var(--color02);
+    border-color: var(--color02);
+    background-color: var(--color01);
+}
+
+.bottomActionReturn {
+    display: flex;
+    width: 60vw;
+    height: 5vh;
+}
+
+
+
+/*Tema ***************************************** */
+
+:root {
+    --background: var(--color06);
+    --text-primary: var(--color05);
+    --border: #808080;
+    --form-bg: #191919;
+}
+
+[data-theme="light"] {
+    --background: var(--color05);
+    --text-primary: var(--color01);
+    --border: #333;
+    --form-bg: var(--color05);
+}
+
+
+/* theme */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.theme {
+    background-color: var(--background);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .8rem;
+    transition: all .5s;
+}
+
+.theme-toggle i {
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.theme-toggle {
+    text-align: center;
+}
+
+.toggleButton {
+    margin-right: .5em;
+    margin-top: .5em;
+    margin-left: 65%;
+}
+
+input[type="checkbox"] {
+    width: 50px;
+    height: 25px;
+    appearance: none;
+    border-radius: 25px;
+    background-color: var(--color02);
+    box-shadow: inset 0px 0px 16px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .4s;
+    position: relative;
+}
+
+input:checked[type="checkbox"] {
+    background-color: #DAE2DF;
+}
+
+input[type="checkbox"]:before {
+    content: '🕯️';
+    width: 25px;
+    height: 25px;
+    background-color: #EDF3F1;
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    transform: scale(1.1);
+    top: 0;
+    left: 0;
+    transition: .4s;
+
+}
+
+input:checked[type="checkbox"]:before {
+    content: '🕶️';
+    left: 25px;
+}
+
+.toggleButton {
+    justify-content: center;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+
+
+
+
+

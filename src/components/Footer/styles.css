@@ -1,0 +1,14 @@
+#slogan {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#slogan h5 {
+    margin-right: 2vw;
+    font-size: 1rem;
+}

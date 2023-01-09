@@ -1,0 +1,23 @@
+
+#mark {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+    color: var(--color02);
+    background-color: var(--color01);
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.beeIcon {
+    margin-left: 1vw;
+    margin-top: 1vh;
+    font-size: 3rem;
+}
+
+#mark h2 {
+    margin-left: 1vw;
+    font-size: 3rem;
+}
+

@@ -1,0 +1,27 @@
+#loading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-right: 5vw;
+}
+
+#loading h1{
+    max-width: 23vw;
+    align-items: center;
+    margin-right: 5vw;
+    margin-top: 5vw;
+}
+
+.zzz {
+    border-radius: 185px;
+    max-width: 30%;
+    max-height: 30%;
+    transition: ease;
+}
+
+.loading {
+    border-radius: 185px;
+    max-width: 5%;
+    /* max-height: 10%; */
+    transition: ease;
+}

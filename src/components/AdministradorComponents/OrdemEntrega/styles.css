@@ -1,0 +1,44 @@
+#headerFuncionalidade {
+    display: flex;
+}
+
+.tituloFuncionalidade h1 {
+    font-size: 1.8rem;
+    color: var(--color08);
+    width: 58vw;
+}
+
+#actionNew {
+    display: flex;
+    height: 6.5vh;
+    font-size: 2rem;
+}
+
+#actionNew button {
+    margin: 0.25rem;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px var(--color01);
+}
+
+.buttonPurpleAction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color02);
+    border-color: var(--color08);
+    background-color: var(--color08);
+    box-shadow: 1px 1px 2px var(--color01);
+    transition: 0.1s ease;
+}
+
+.buttonPurpleAction:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    color: rgb(172, 55, 255);
+    border-color: rgb(172, 55, 255);
+}
